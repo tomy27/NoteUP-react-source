@@ -4,7 +4,7 @@ export default function Header () {
     return (
         <>
             <ThemeToggle />
-            <div className="container-fluid text-center">
+            <div className="appName">
                 <h3>NoteUP</h3>
             </div>
         </>
