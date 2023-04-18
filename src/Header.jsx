@@ -1,12 +1,13 @@
 import ThemeToggle from "./ThemeToggle"
+import logo from "./logo.png"
 
 export default function Header () {
     return (
         <>
-            <ThemeToggle />
             <div className="appName">
-                <h3>NoteUP</h3>
+                <img src={logo} alt="logo" width="80"/>
             </div>
+            <ThemeToggle />
         </>
     )
 }

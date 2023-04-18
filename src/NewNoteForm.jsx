@@ -22,7 +22,7 @@ export default function NewNoteForm ({addNote}) {
           onChange={e => setNewNote(e.target.value)}
           type="text" id="item" 
         />
-        <button className="btn">Add</button>
+        <button className="btn">+ Add</button>
       </div>
     </form>
     )
